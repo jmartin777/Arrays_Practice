@@ -23,3 +23,18 @@ var questions = ["Truthful", "Bad", "Tall,Short"];
 questions.reverse()
 
 console.log(questions);
+
+// Index Position (examples)
+
+var birthMonths = ["July", "May", "October", "August"];
+
+// Index position [0] is July.
+// Index position [1] is May.
+// Index position [2] is October.
+// Index position [3] is August.
+
+var birthMonths = ["July", "May", "October", "August"];
+console.log(birthMonths[2])
+
+// As you can see above , we are logging the variable along with the index position
+// in bracket notation to access the element at the index position of `2`, which is October
